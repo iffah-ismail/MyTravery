@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.firstBox {
+    position: relative;
+}
+
+.firstBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  object-position: 83%;
+}
+
+.header {
+    height: 120px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 600px;
+}
+
+.header a, .header div a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+/* .header a:hover, .header div a:hover {
+    color: #11414B;
+} */
+
+.header div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+}
+
+.top-bgg-title-box {
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.top-bgg-subtitle {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-bgg-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+}
+
+.wall {
+    width: 1517px;
+    position: absolute;
+    top: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 35px;
+}
+
+.wall h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #11414B;
+}
+
+.leaderboard {
+    width: 1517px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.slot {
+    position: relative;
+    text-align: center;
+}
+
+.slot img {
+    border-radius: 20px;
+    width: 900px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.slot-record {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.slot-record-no {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.slot-record-no p {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 28px;
+}
+
+.slot-record-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slot-record-title p {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 28px;
+}
+
+.slot-record-visit {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.slot-record-visit p {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 28px;
+}
+
+.forthBox {
+    width: 99%;
+    height: 100px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    position: absolute;
+    top: 2100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 700px;
+}
+
+.forthBox div {
+    color: #919EA1;
+}
+
+.forthBox-left p, .forthBox-right p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.forthBox-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 6px;
+}
+
+.forthBox-right p {
+    text-align: center;
+}
+
+.forthBox-right div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+}

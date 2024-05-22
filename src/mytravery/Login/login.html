@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="login.js"></script>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">	
+	<link rel="icon" href="icon/mountain.png" type="image/icon type">
+	<title>MyTravery - Login</title>
+</head>
+<body>
+
+	<!-- <div class="header">
+		<a href="home.html">MyTravery</a>
+		
+		<div>
+			<a href="">Destination</a>
+			<a href="">Most Visited Place</a>
+			<a href="">Contact</a>
+			<a href="">About</a>
+		</div>
+
+	</div> -->
+
+	<div class="cont-box">
+		<div class="container">
+			<div class="contact-box">
+				<div class="left"></div>
+<div class="right">
+  <h2>Login</h2>
+  <br>
+  <form name="loginForm" action="../Home/home.html" method="post" onsubmit="return validateForm()">
+    <label for="username">Username:</label>
+    <input type="text" class="field" placeholder="username">
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" class="field" placeholder="password">
+    <br>
+    <br>
+
+        <button class="btn">Login</button>
+  </form>
+</div>
+			</div>
+		</div>
+	
+	</div>
+
+	
+	<div class="forthBox">
+
+        <div class="forthBox-left">
+            <p>&#169; MyTravery. All rights reserved</p>
+        </div>
+
+        <div class="forthBox-right">
+            <p>Our Social</p>
+
+            <div>
+                <img src="icon/facebook.png">
+                <img src="icon/twitter.png">
+                <img src="icon/instagram.png">
+            </div>
+
+        </div>
+
+    </div>
+    
+    <!-- <script>
+        function goToHomePage() {
+        $('form').attr('action', '../Home/home.html');
+    }
+    </script> -->
+
+    <script>
+        function goToHomePage() {
+            document.location.href = "../Home/home.html";
+        }
+    </script>
+
+
+	
+</body>
+</html>

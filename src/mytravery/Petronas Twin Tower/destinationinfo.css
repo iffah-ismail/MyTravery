@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.firstBox {
+    position: relative;
+}
+
+.firstBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  object-position: 83%;
+}
+
+.header {
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 600px;
+}
+
+.header a, .header div a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.header div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+}
+
+.top-bgg-title-box {
+    color: #fff;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.top-bgg-subtitle {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-bgg-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+}
+
+.articleBox {
+    width: 99%;
+    position: absolute;
+    top: 650px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.articleBox h1 {
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    color: #11414B;
+}
+
+.articleBox p {
+    width: 60%;
+    font-family: "Helvetica Neueu", Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.remarkBox {
+    width: 99%;
+    position: absolute;
+    top: 1050px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.remarkBox-left {
+    width: 50%;
+}
+
+.remarkBox-left img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+
+.remarkBox-right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+} 
+
+.remarkBox-right h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #11414B;
+}
+
+.remarkBox-right p {
+    font-family: "Helvetica Neueu", Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.mapBox {
+    width: 1517px;
+    height: 500px;
+    position: absolute;
+    top: 1650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #015266;
+    background-color: #015266;
+    column-gap: 70px;
+}
+
+.mapBox-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 10px;
+}
+
+.mapBox-left h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #11414B;
+    color: #fff;
+}
+
+.mapBox-left p {
+    font-family: "Helvetica Neueu", Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.gallerybox {
+    width: 1517px;
+    position: absolute;
+    top: 2300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0;
+}
+
+.gallerybox-top h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #11414B;
+}
+
+.forthBox {
+    width: 1517px;
+    height: 100px;
+    /* border: 1px solid #fff;
+    background-color: #fff; */
+    position: absolute;
+    top: 2900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 700px;
+}
+
+.forthBox div {
+    color: #919EA1;
+}
+
+.forthBox-left p, .forthBox-right p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.forthBox-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 6px;
+}
+
+.forthBox-right p {
+    text-align: center;
+}
+
+.forthBox-right div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+}
